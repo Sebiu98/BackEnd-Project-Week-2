@@ -3,6 +3,7 @@
 	<name>BackEnd-Project-Week-2</name>
 	<comment></comment>
 	<projects>
+		<project>java libraries</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -1,4 +1,11 @@
-package com.epicode.project;
+package com.epicode.project.model;
+
+
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+
+@Entity
 
 public class Paper extends Readable {
 	private Periodicity periodicity;
@@ -10,6 +17,7 @@ public class Paper extends Readable {
 
 	}
 
+	@Enumerated(EnumType.STRING)
 	public Periodicity getPeriodicity() {
 		return periodicity;
 	}

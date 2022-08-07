@@ -1,5 +1,9 @@
-package com.epicode.project;
+package com.epicode.project.model;
 
+import javax.persistence.Entity;
+
+
+@Entity
 public class Book extends Readable {
 
 	private String Author;

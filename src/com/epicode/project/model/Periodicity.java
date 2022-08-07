@@ -1,4 +1,4 @@
-package com.epicode.project;
+package com.epicode.project.model;
 
 public enum Periodicity {
 	SETTIMANALE, 
