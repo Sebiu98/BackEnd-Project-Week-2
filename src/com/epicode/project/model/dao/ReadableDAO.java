@@ -89,7 +89,7 @@ public class ReadableDAO {
 			EntityTransaction transaction = em.getTransaction();
 			transaction.begin();
 
-			Query query = em.createQuery("DELETE FROM ElementoLetterario el WHERE el.isbn = :isbn");
+			Query query = em.createQuery("DELETE FROM Readable el WHERE el.isbn = :isbn");
 
 			query.setParameter("isbn", isbn);
 			
